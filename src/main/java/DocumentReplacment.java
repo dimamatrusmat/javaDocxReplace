@@ -20,7 +20,7 @@ import java.util.HashMap;
 
 public class DocumentReplacment {
 
-    public static String documntReplace(String nameTemplate, String[][] stringToReplaceAndToReplacment, String outputFileName) throws IOException, Docx4JException {
+    public static String documentReplace(String nameTemplate, String[][] stringToReplaceAndToReplacment, String outputFileName) throws IOException, Docx4JException {
         HashMap<String, String> replaceMap = new HashMap<>();
 
         for (String[] i: stringToReplaceAndToReplacment) {

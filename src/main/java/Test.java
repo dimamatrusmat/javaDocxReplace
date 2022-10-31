@@ -10,9 +10,9 @@ public class Test {
             {"fioTo", "Олег Иванович"},
         };
 
-        String output = "Заявление.docx";
+        String template = "Заявление.docx";
 
-        output = DocumentReplacment.documntReplace("template.docx", stringToReplaceAndToReplacment, output);
-        DocumentReplacment.replaceTextWithImage(output, "img", "avatar.jpg");
+        template = DocumentReplacment.documentReplace("template.docx", stringToReplaceAndToReplacment, template);
+        DocumentReplacment.replaceTextWithImage(template, "img", "avatar.jpg");
     }
 }
